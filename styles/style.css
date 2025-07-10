@@ -111,5 +111,34 @@ nav{
 }
 
 
+/* productive user section starts here*/
+.productive-user-section{
+    padding: 50px 0px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.productive-user-count{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.productive-user-details{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.productive-user-container{
+    display: flex;
+    gap: 167px;
+    justify-content: center;
+    
+}
 
 
