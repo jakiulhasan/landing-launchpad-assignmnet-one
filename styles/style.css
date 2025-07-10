@@ -199,3 +199,29 @@ nav {
   color: rgba(179, 179, 179, 1);
   font-size: 16px;
 }
+
+/* ready focus section starts here */
+.focus-better-section{
+    justify-items: center;
+    text-align: center;
+    padding: 71px 0px;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+
+.focus-better-title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.focus-better-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.focus-better-section img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
