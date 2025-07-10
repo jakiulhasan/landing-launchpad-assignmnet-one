@@ -20,6 +20,10 @@
     color: #4E47FF;
 }
 
+.title-color{
+    color: #252432;
+}
+
 .button-primary{
     background-color: #4E47FF;
     color: #ffffff;
@@ -80,6 +84,31 @@ nav{
     padding: 0px 117px 37px 117px;
 }
 
+
+/* action section start here */
+.action-container{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+}
+.action-title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    margin-bottom: 23px;
+}
+
+.action-description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 23px;
+}
+
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
 
 
 
