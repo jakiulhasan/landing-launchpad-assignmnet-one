@@ -1,6 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 .inter-normal {
@@ -16,129 +16,129 @@
 }
 
 /* shared style */
-.primary-color{
-    color: #4E47FF;
+.primary-color {
+  color: #4e47ff;
 }
 
-.title-color{
-    color: #252432;
+.title-color {
+  color: #252432;
 }
 
-.button-primary{
-    background-color: #4E47FF;
-    color: #ffffff;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 36px;
-    border: none;
-    display: block;
+.button-primary {
+  background-color: #4e47ff;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 36px;
+  border: none;
+  display: block;
 }
 
 .button-primary:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
-    transition: all 0.3s ease;
-    cursor: pointer;
+  background-color: yellow;
+  color: #4e47ff;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(78, 71, 255, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-section{
-    width: 1140px;
-    margin: 115px auto;
+section {
+  width: 1140px;
+  margin: 115px auto;
 }
 
 /* Nav Header Starts Here */
-nav{
-    background-image: url(../Assets/Hero-bg.png);
+nav {
+  background-image: url(../Assets/Hero-bg.png);
 }
-.nav-header{
-    width: 1140px;
-    display: flex;
-    align-items: center;
-    padding: 50px ;
-    justify-content: space-between;
-    margin: 0 auto;
+.nav-header {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-
-.website-name{
-    font-size: 34px;
-    line-height: 150%;
-    font-weight: 900;
+.website-name {
+  font-size: 34px;
+  line-height: 150%;
+  font-weight: 900;
 }
-.nav-header a{
-    text-decoration: none;
+.nav-header a {
+  text-decoration: none;
 }
 /* Nav Banner Starts Here */
-.nav-banner{
-    width: 1140px;
-    margin: 0 auto;
-    padding: 158px 0px;
-    justify-items: center;
+.nav-banner {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 158px 0px;
+  justify-items: center;
 }
-.nav-banner-title{
-    font-size: 65px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0px 117px 37px 117px;
+.nav-banner-title {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 117px 37px 117px;
 }
-
 
 /* action section start here */
-.action-container{
-    display: flex;
-    gap: 220px;
-    align-items: center;
+.action-container {
+  display: flex;
+  gap: 220px;
+  align-items: center;
 }
-.action-title{
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 120%;
-    margin-bottom: 23px;
-}
-
-.action-description{
-    font-size: 24px;
-    color: rgba(37, 36, 50, 0.5);
-    margin-bottom: 23px;
+.action-title {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-bottom: 23px;
 }
 
-.action-img{
-    width: 403px;
-    height: 328px;
-    border-radius: 48px;
+.action-description {
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
 }
 
+.action-img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
 
 /* productive user section starts here*/
-.productive-user-section{
-    padding: 50px 0px;
-    background-color: rgba(78, 71, 255, 0.1);
-    border-radius: 24px;
+.productive-user-section {
+  padding: 50px 0px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
 }
-.productive-title{
-    font-size: 38px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.productive-user-count{
-    font-size: 80px;
-    font-weight: bold;
+.productive-title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.productive-user-details{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+.productive-user-count {
+  font-size: 80px;
+  font-weight: bold;
 }
 
-.productive-user-container{
-    display: flex;
-    gap: 167px;
-    justify-content: center;
-    
+.productive-user-details {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
 }
 
+.productive-user-container {
+  display: flex;
+  gap: 167px;
+  justify-content: center;
+}
 
+.productive-user-card {
+  justify-items: center;
+}
